@@ -200,6 +200,23 @@ const carsData = [
     }
 ];
 
+// Lightbox state
+let lightboxElements = {
+    overlay: null,
+    image: null,
+    caption: null,
+    prevBtn: null,
+    nextBtn: null,
+    closeBtn: null,
+    backdrop: null
+};
+
+let lightboxState = {
+    images: [],
+    currentIndex: 0,
+    title: ''
+};
+
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     initializeNavigation();
@@ -207,6 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeScrollAnimations();
     initializeContactForm();
     initializeMobileMenu();
+    initializeLightbox();
 });
 
 // Smooth Scrolling Navigation
@@ -418,8 +436,88 @@ function createCarCard(car, index) {
     
     card.appendChild(imageContainer);
     card.appendChild(carDetails);
+
+    // Open fullscreen lightbox when clicking the car card or image
+    card.addEventListener('click', () => {
+        if (!car.images || car.images.length === 0) return;
+        openLightbox(car.images, currentImageIndex, `${car.year} ${car.make} ${car.model}`);
+    });
     
     return card;
+}
+
+// Initialize Lightbox
+function initializeLightbox() {
+    const overlay = document.getElementById('lightbox');
+    if (!overlay) return;
+
+    const image = overlay.querySelector('.lightbox-image');
+    const caption = overlay.querySelector('.lightbox-caption');
+    const prevBtn = overlay.querySelector('.lightbox-prev');
+    const nextBtn = overlay.querySelector('.lightbox-next');
+    const closeBtn = overlay.querySelector('.lightbox-close');
+    const backdrop = overlay.querySelector('.lightbox-backdrop');
+
+    lightboxElements = { overlay, image, caption, prevBtn, nextBtn, closeBtn, backdrop };
+
+    const changeHandler = (direction) => {
+        changeLightboxImage(direction);
+    };
+
+    if (prevBtn) prevBtn.addEventListener('click', (e) => { e.stopPropagation(); changeHandler(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', (e) => { e.stopPropagation(); changeHandler(1); });
+    if (closeBtn) closeBtn.addEventListener('click', (e) => { e.stopPropagation(); closeLightbox(); });
+    if (backdrop) backdrop.addEventListener('click', () => closeLightbox());
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+        if (!lightboxElements.overlay || !lightboxElements.overlay.classList.contains('active')) return;
+        if (e.key === 'Escape') {
+            closeLightbox();
+        } else if (e.key === 'ArrowRight') {
+            changeLightboxImage(1);
+        } else if (e.key === 'ArrowLeft') {
+            changeLightboxImage(-1);
+        }
+    });
+}
+
+function openLightbox(images, startIndex, title) {
+    if (!lightboxElements.overlay || !images || images.length === 0) return;
+
+    lightboxState.images = images;
+    lightboxState.currentIndex = startIndex || 0;
+    lightboxState.title = title || '';
+
+    updateLightboxImage();
+    lightboxElements.overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    if (!lightboxElements.overlay) return;
+    lightboxElements.overlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function changeLightboxImage(direction) {
+    if (!lightboxState.images || lightboxState.images.length === 0) return;
+    const length = lightboxState.images.length;
+    lightboxState.currentIndex = (lightboxState.currentIndex + direction + length) % length;
+    updateLightboxImage();
+}
+
+function updateLightboxImage() {
+    if (!lightboxElements.image || !lightboxState.images.length) return;
+    const src = lightboxState.images[lightboxState.currentIndex];
+    lightboxElements.image.src = src;
+    lightboxElements.image.alt = lightboxState.title || 'Car image';
+
+    if (lightboxElements.caption) {
+        const current = lightboxState.currentIndex + 1;
+        const total = lightboxState.images.length;
+        lightboxElements.caption.textContent = `${lightboxState.title} (${current} / ${total})`;
+    }
 }
 
 // Scroll Animations using Intersection Observer
