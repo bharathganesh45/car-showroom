@@ -37,9 +37,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. insurance current. Tyres 80%. 3rd Ownership. Chill AC. Price:slightly negotiable. more details contact us.",
         color: "white",
         images: [
-            "images/car2_1.jpg",
-            "images/car2_2.jpg",
-            "images/car2_3.jpg"
+            "images/skooda/image1.jpeg",
+            "images/skooda/image2.jpeg",
+            "images/skooda/image3.jpeg",
+            "images/skooda/image4.jpeg",
+            "images/skooda/image5.jpeg",
+            "images/skooda/image6.jpeg",
+            "images/skooda/image7.jpeg"
         ]
     },
     {
@@ -54,9 +58,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. New Tyres. Chill AC. 3rd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "white",
         images: [
-            "images/car3_1.jpg",
-            "images/car3_2.jpg",
-            "images/car3_3.jpg"
+            "images/swift dzire/image1.jpeg",
+            "images/swift dzire/image2.jpeg",
+            "images/swift dzire/image3.jpeg",
+            "images/swift dzire/image4.jpeg",
+            "images/swift dzire/image5.jpeg",
+            "images/swift dzire/image6.jpeg",
+            "images/swift dzire/image7.jpeg"
         ]
     },
     {
@@ -71,9 +79,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Tyres 90%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "white",
         images: [
-            "images/car4_1.jpg",
-            "images/car4_2.jpg",
-            "images/car4_3.jpg"
+            "images/h i20/image1.jpeg",
+            "images/h i20/image2.jpeg",
+            "images/h i20/image3.jpeg",
+            "images/h i20/image4.jpeg",
+            "images/h i20/image5.jpeg",
+            "images/h i20/image6.jpeg",
+            "images/h i20/image7.jpeg"
         ]
     },
     {
@@ -88,9 +100,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune Condition Car. Touch Screen Music System. Insurance current. Tyres 80%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "Fiery Red",
         images: [
-            "images/car5_1.jpg",
-            "images/car5_2.jpg",
-            "images/car5_3.jpg"
+            "images/eon/image1.jpeg",
+            "images/eon/image2.jpeg",
+            "images/eon/image3.jpeg",
+            "images/eon/image4.jpeg",
+            "images/eon/image5.jpeg",
+            "images/eon/image6.jpeg",
+            "images/eon/image7.jpeg"
         ]
     },
     {
@@ -105,9 +121,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Good condition car. Tyres 75%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "light Ash color",
         images: [
-            "images/car6_1.jpg",
-            "images/car6_2.jpg",
-            "images/car6_3.jpg"
+            "images/eslito 2012/image1.jpeg",
+            "images/eslito 2012/image2.jpeg",
+            "images/eslito 2012/image3.jpeg",
+            "images/eslito 2012/image4.jpeg",
+            "images/eslito 2012/image5.jpeg",
+            "images/eslito 2012/image6.jpeg"
+            
         ]
     },
     {
@@ -122,9 +142,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Tyres 85%. Chill AC. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Tango orange",
         images: [
-            "images/car7_1.jpg",
-            "images/car7_2.jpg",
-            "images/car7_3.jpg"
+            "images/alto k10/image1.jpeg",
+            "images/alto k10/image2.jpeg",
+            "images/alto k10/image3.jpeg",
+            "images/alto k10/image4.jpeg",
+            "images/alto k10/image5.jpeg",
+            "images/alto k10/image6.jpeg",
+            "images/alto k10/image7.jpeg"
         ]
     },
     {
@@ -139,9 +163,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Chill AC. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Metalic White",
         images: [
-            "images/car8_1.jpg",
-            "images/car8_2.jpg",
-            "images/car8_3.jpg"
+            "images/f figo/image1.jpeg",
+            "images/f figo/image2.jpeg",
+            "images/f figo/image3.jpeg",
+            "images/f figo/image4.jpeg",
+            "images/f figo/image5.jpeg",
+            "images/f figo/image6.jpeg",
+            "images/f figo/image7.jpeg"
         ]
     },
     {
@@ -156,9 +184,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%, Alloy wheels. Chill AC. 3nd Ownership. Price: Slightly negotiable. more details contact us. ",
         color: "Sky blue",
         images: [
-            "images/vw1.jpg",
-            "images/vw2.jpg",
-            "images/vw3.jpg"
+            "images/m s sx4/image1.jpeg",
+            "images/m s sx4/image2.jpeg",
+            "images/m s sx4/image3.jpeg",
+            "images/m s sx4/image4.jpeg",
+            "images/m s sx4/image5.jpeg",
+            "images/m s sx4/image6.jpeg",
+            "images/m s sx4/image7.jpeg"
         ]
     },
     {
@@ -173,9 +205,12 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Touch Screen Music System. Insurance current. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "White",
         images: [
-            "images/car10_1.jpg",
-            "images/car10_2.jpg",
-            "images/car10_3.jpg"
+            "images/h verna/image1.jpeg",
+            "images/h verna/image2.jpeg",
+            "images/h verna/image3.jpeg",
+            "images/h verna/image4.jpeg",
+            "images/h verna/image5.jpeg",
+            "images/h verna/image6.jpeg" 
         ]
     },
     {
@@ -190,9 +225,12 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. New seat covers. 4th Ownership. Price: very Slightly negotiable. more details contact us.",
         color: "metalic gray",
         images: [
-            "images/car11_1.jpg",
-            "images/car11_2.jpg",
-            "images/car11_3.jpg"
+            "images/f fiesta/image1.jpeg",
+            "images/f fiesta/image2.jpeg",
+            "images/f fiesta/image3.jpeg",
+            "images/f fiesta/image4.jpeg",
+            "images/f fiesta/image5.jpeg",
+            "images/f fiesta/image6.jpeg"
         ]
     },
     {
@@ -207,9 +245,12 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. chill AC. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "metalic gray",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/eslito2009/image1.jpeg",
+            "images/eslito2009/image2.jpeg",
+            "images/eslito2009/image3.jpeg",
+            "images/eslito2009/image4.jpeg",
+            "images/eslito2009/image5.jpeg",
+            "images/eslito2009/image6.jpeg"
         ]
     },
     {
@@ -224,9 +265,14 @@ const carsData = [
         about: "Neat Interior and Exterior. Good condition car. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "metalic white",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/s vxi/image1.jpeg",
+            "images/s vxi/image2.jpeg",
+            "images/s vxi/image3.jpeg",
+            "images/s vxi/image4.jpeg",
+            "images/s vxi/image5.jpeg",
+            "images/s vxi/image6.jpeg",
+            "images/s vxi/image7.jpeg",
+            "images/s vxi/image8.jpeg"
         ]
     },
     {
@@ -241,9 +287,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "metalic gray",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/m.quanto/image1.jpeg",
+            "images/m.quanto/image2.jpeg",
+            "images/m.quanto/image3.jpeg",
+            "images/m.quanto/image4.jpeg",
+            "images/m.quanto/image5.jpeg",
+            "images/m.quanto/image6.jpeg",
+            "images/m.quanto/image7.jpeg"
         ]
         
     },
@@ -259,9 +309,13 @@ const carsData = [
         about: " Geniune condition car. Insurance current. single Ownership. Tyres 70%. Price: Slightly negotiable. more details contact us.",
         color: "white",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/sumo/image1.jpeg",
+            "images/sumo/image2.jpeg",
+            "images/sumo/image3.jpeg",
+            "images/sumo/image4.jpeg",
+            "images/sumo/image5.jpeg",
+            "images/sumo/image6.jpeg",
+            "images/sumo/image7.jpeg"
         ]
     },
     {
@@ -276,9 +330,13 @@ const carsData = [
         about: "Neat Interior and Exterior. Geniune condition car. Alloy Wheels, Airbags,Steering control.New tyres. 4th Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Dark gray",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/f linea/image1.jpeg",
+            "images/f linea/image2.jpeg",
+            "images/f linea/image3.jpeg",
+            "images/f linea/image4.jpeg",
+            "images/f linea/image5.jpeg",
+            "images/f linea/image6.jpeg"
+            
         ]
     },
     {
@@ -292,9 +350,12 @@ const carsData = [
         about: " Geniune condition car. 3rd Ownership. Alloy wheels, tyres 75%. Price: Slightly negotiable. more details contact us.",
         color: "metalic gray",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/s xing/image1.jpeg",
+            "images/s xing/image2.jpeg",
+            "images/s xing/image3.jpeg",
+            "images/s xing/image4.jpeg",
+            "images/s xing/image5.jpeg",
+            "images/s xing/image6.jpeg"
         ]
     },
     {
@@ -309,9 +370,13 @@ const carsData = [
         about: "Good Condition Vehicles. Pure Onboard. Working AC. Tyres 65%. 4th Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Dark gray",
         images: [
-            "images/car12_1.jpg",
-            "images/car12_2.jpg",
-            "images/car12_3.jpg"
+            "images/t venture/image1.jpeg",
+            "images/t venture/image2.jpeg",
+            "images/t venture/image3.jpeg",
+            "images/t venture/image4.jpeg",
+            "images/t venture/image5.jpeg",
+            "images/t venture/image6.jpeg",
+            "images/t venture/image7.jpeg"
         ]
     }
 ];
