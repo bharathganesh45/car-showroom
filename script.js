@@ -15,7 +15,7 @@ const carsData = [
         mileage: 18,
         fuelType: "Petrol",
         transmission: "Automatic",
-        about: "Clean Interior and Exterior. Geniune condition car. Insurance current. Tyres 90%. 2nd Owenership. Price:slightly negotiable ",
+        about: "Clean Interior and Exterior. Geniune condition car. Insurance current. Tyres 90%. 2nd Owenership. Price:slightly negotiable. more details contact us. ",
         color: "Deep gray with metalic finish",
         images: [
             "images/vw/vw1.jpg",
@@ -34,7 +34,7 @@ const carsData = [
         mileage: 20,
         fuelType: "petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune condition car. insurance current. Tyres 80%. 3rd Ownership. Chill AC. Price:slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune condition car. insurance current. Tyres 80%. 3rd Ownership. Chill AC. Price:slightly negotiable. more details contact us.",
         color: "white",
         images: [
             "images/car2_1.jpg",
@@ -44,14 +44,14 @@ const carsData = [
     },
     {
         make: "Maruthi Suzuki",
-        model: "Dzire",
+        model: " Swift Dzire",
         No: "TN:12 Q:0311",
         year: 2016,
         price: 345000,
         mileage: 18,
         fuelType: "petrol",
         transmission: "Automatic",
-        about: "Neat Interior and Exterior. Geniune condition car. New Tyres. Chill AC. 3rd Ownwership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune condition car. New Tyres. Chill AC. 3rd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "white",
         images: [
             "images/car3_1.jpg",
@@ -68,7 +68,7 @@ const carsData = [
         mileage: 21,
         fuelType: "Petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune condition car. Tyres 90%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 90%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "white",
         images: [
             "images/car4_1.jpg",
@@ -85,7 +85,7 @@ const carsData = [
         mileage: 20,
         fuelType: "Petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune Condition Car. Touch Screen Music System. Insurance current. Tyres 80%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune Condition Car. Touch Screen Music System. Insurance current. Tyres 80%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "Fiery Red",
         images: [
             "images/car5_1.jpg",
@@ -102,7 +102,7 @@ const carsData = [
         mileage: 18,
         fuelType: "Petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Good condition car. Tyres 75%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Good condition car. Tyres 75%. Chill AC. 2nd Ownwership. Price: Slightly negotiable. more details contact us.",
         color: "light Ash color",
         images: [
             "images/car6_1.jpg",
@@ -119,7 +119,7 @@ const carsData = [
         mileage: 20,
         fuelType: "Petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune condition car. Tyres 85%. Chill AC. 2nd Ownership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 85%. Chill AC. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Tango orange",
         images: [
             "images/car7_1.jpg",
@@ -136,7 +136,7 @@ const carsData = [
         mileage: 15,
         fuelType: "Petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Chill AC. 2nd Ownership. Price: Slightly negotiable.",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Chill AC. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
         color: "Metalic White",
         images: [
             "images/car8_1.jpg",
@@ -153,7 +153,7 @@ const carsData = [
         mileage: 18,
         fuelType: "petrol",
         transmission: "Manual",
-        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%, Alloy wheels. Chill AC. 3nd Ownership. Price: Slightly negotiable. more details contact us.",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%, Alloy wheels. Chill AC. 3nd Ownership. Price: Slightly negotiable. more details contact us. ",
         color: "Sky blue",
         images: [
             "images/vw1.jpg",
@@ -162,15 +162,16 @@ const carsData = [
         ]
     },
     {
-        make: "Nissan",
-        model: "Altima",
-        year: 2021,
-        price: 21900,
-        mileage: 22000,
-        fuelType: "Gasoline",
-        transmission: "CVT",
-        engine: "2.5L 4-Cylinder",
-        color: "Blue",
+        make: "Hyundai",
+        model: "Verna",
+        No: "TN:22 AV:0226",
+        year: 2007,
+        price: 135000,
+        mileage: 17,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Touch Screen Music System. Insurance current. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "White",
         images: [
             "images/car10_1.jpg",
             "images/car10_2.jpg",
@@ -178,15 +179,16 @@ const carsData = [
         ]
     },
     {
-        make: "Jeep",
-        model: "Wrangler",
-        year: 2020,
-        price: 38900,
-        mileage: 40000,
-        fuelType: "Gasoline",
+        make: "Ford",
+        model: "Fiesta",
+        No:"TN:67 E:9850",
+        year: 2006,
+        price: 99000,
+        mileage: 15,
+        fuelType: "Petrol",
         transmission: "Manual",
-        engine: "3.6L V6",
-        color: "Green",
+        about: "Neat Interior and Exterior. Geniune condition car. New seat covers. 4th Ownership. Price: very Slightly negotiable. more details contact us.",
+        color: "metalic gray",
         images: [
             "images/car11_1.jpg",
             "images/car11_2.jpg",
@@ -194,15 +196,118 @@ const carsData = [
         ]
     },
     {
-        make: "Subaru",
-        model: "Outback",
-        year: 2021,
-        price: 29900,
-        mileage: 26000,
-        fuelType: "Gasoline",
-        transmission: "CVT",
-        engine: "2.5L 4-Cylinder",
-        color: "Blue",
+        make: "Maruthi Suzuki",
+        model: "Zen Estilo",
+        No: "TN:20 BB:4101",
+        year: 2009,
+        price: 145000,
+        mileage: 16,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. chill AC. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "metalic gray",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+    },
+    {
+        make: "Maruthi Suzuki",
+        model: "Swift Vxi",
+        No: "TN:05 BB:4488",
+        year: 2006,
+        price: 155000,
+        mileage: 15,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Good condition car. 3rd Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "metalic white",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+    },
+    {
+        make: "Mahindra",
+        model: "Quanto c6",
+        No: "TN:72 AV:5204",
+        year: 2012,
+        price: 265000,
+        mileage: 16,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. 2nd Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "metalic gray",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+        
+    },
+    {
+        make: "TATA",
+        model: "Sumo",
+        No: "TN:07 Z:8282",
+        year: 1995,
+        price: 99000,
+        mileage: 15,
+        fuelType: "Diesel",
+        transmission: "Manual",
+        about: " Geniune condition car. Insurance current. single Ownership. Tyres 70%. Price: Slightly negotiable. more details contact us.",
+        color: "white",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+    },
+    {
+        make: "FIAT",
+        model: "Linea",
+        No: "TN:31 AC:9337",
+        year: 2010,
+        price: 115000,
+        mileage: 18,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Alloy Wheels, Airbags,Steering control.New tyres. 4th Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "Dark gray",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+    },
+    {
+        make: "Hyundai",
+        model: "Santro Xing",
+        year: 2005,
+        price: 77000,
+        mileage: 14,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: " Geniune condition car. 3rd Ownership. Alloy wheels, tyres 75%. Price: Slightly negotiable. more details contact us.",
+        color: "metalic gray",
+        images: [
+            "images/car12_1.jpg",
+            "images/car12_2.jpg",
+            "images/car12_3.jpg"
+        ]
+    },
+    {
+        make: "TATA",
+        model: "Venture",
+        No: "TN:31 AC:9337",
+        year: 2012,
+        price: 135000,
+        mileage: 15,
+        fuelType: "Disel",
+        transmission: "Manual",
+        about: "Good Condition Vehicles. Pure Onboard. Working AC. Tyres 65%. 4th Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "Dark gray",
         images: [
             "images/car12_1.jpg",
             "images/car12_2.jpg",
