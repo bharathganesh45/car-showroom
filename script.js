@@ -7,31 +7,35 @@
 
 const carsData = [
     {
-        make: "Toyota",
-        model: "Camry",
-        year: 2020,
-        price: 24500,
-        mileage: 35000,
-        fuelType: "Gasoline",
+        make: "VolksWagon",
+        model: "Vento H-line AT",
+        No: "TN:O5 BQ:8880",
+        year: 2018,
+        price: 525000,
+        mileage: 18,
+        fuelType: "Petrol",
         transmission: "Automatic",
-        engine: "2.5L 4-Cylinder",
-        color: "Silver",
+        about: "Clean Interior and Exterior. Geniune condition car. Insurance current. Tyres 90%. 2nd Owenership. Price:slightly negotiable ",
+        color: "Deep gray with metalic finish",
         images: [
-            "images/car1_1.jpg",
-            "images/car1_2.jpg",
-            "images/car1_3.jpg"
+            "images/vw/vw1.jpg",
+            "images/vw/vw2.jpg",
+            "images/vw/vw3.jpg",
+            "images/vw/vw4.jpg",
+            "images/vw/vw5.jpg"
         ]
     },
     {
-        make: "Honda",
-        model: "Civic",
-        year: 2021,
-        price: 22800,
-        mileage: 28000,
-        fuelType: "Gasoline",
-        transmission: "CVT",
-        engine: "2.0L 4-Cylinder",
-        color: "Blue",
+        make: "Skoda",
+        model: "Rapid",
+        No: "TN:66 F:0231",
+        year: 2012,
+        price: 275000,
+        mileage: 20,
+        fuelType: "petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. insurance current. Tyres 80%. 3rd Ownership. Chill AC. Price:slightly negotiable.",
+        color: "white",
         images: [
             "images/car2_1.jpg",
             "images/car2_2.jpg",
@@ -39,15 +43,16 @@ const carsData = [
         ]
     },
     {
-        make: "BMW",
-        model: "3 Series",
-        year: 2019,
-        price: 32900,
-        mileage: 42000,
-        fuelType: "Gasoline",
+        make: "Maruthi Suzuki",
+        model: "Dzire",
+        No: "TN:12 Q:0311",
+        year: 2016,
+        price: 345000,
+        mileage: 18,
+        fuelType: "petrol",
         transmission: "Automatic",
-        engine: "2.0L Turbo 4-Cylinder",
-        color: "Black",
+        about: "Neat Interior and Exterior. Geniune condition car. New Tyres. Chill AC. 3rd Ownwership. Price: Slightly negotiable.",
+        color: "white",
         images: [
             "images/car3_1.jpg",
             "images/car3_2.jpg",
@@ -55,15 +60,16 @@ const carsData = [
         ]
     },
     {
-        make: "Mercedes-Benz",
-        model: "C-Class",
-        year: 2020,
-        price: 35900,
-        mileage: 38000,
-        fuelType: "Gasoline",
-        transmission: "Automatic",
-        engine: "2.0L Turbo 4-Cylinder",
-        color: "White",
+        make: "Hyundai",
+        model: "i20 Magna",
+        No: "TN:69 AU:5797",
+        year: 2013,
+        price: 295000,
+        mileage: 21,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 90%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        color: "white",
         images: [
             "images/car4_1.jpg",
             "images/car4_2.jpg",
@@ -71,15 +77,16 @@ const carsData = [
         ]
     },
     {
-        make: "Audi",
-        model: "A4",
-        year: 2021,
-        price: 38900,
-        mileage: 25000,
-        fuelType: "Gasoline",
-        transmission: "Automatic",
-        engine: "2.0L Turbo 4-Cylinder",
-        color: "Gray",
+        make: "Hyundai",
+        model: "Eon",
+        No: "TN:69 AK:3917",
+        year: 2014,
+        price: 225000,
+        mileage: 20,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune Condition Car. Touch Screen Music System. Insurance current. Tyres 80%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        color: "Fiery Red",
         images: [
             "images/car5_1.jpg",
             "images/car5_2.jpg",
@@ -87,15 +94,16 @@ const carsData = [
         ]
     },
     {
-        make: "Ford",
-        model: "F-150",
-        year: 2020,
-        price: 42900,
-        mileage: 45000,
-        fuelType: "Gasoline",
-        transmission: "Automatic",
-        engine: "3.5L V6 EcoBoost",
-        color: "Red",
+        make: "Maruthi Suzuki",
+        model: "Zen Estilo Vxi",
+        No: "TN:59 AT:7977",
+        year: 2012,
+        price: 195000,
+        mileage: 18,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Good condition car. Tyres 75%. Chill AC. 2nd Ownwership. Price: Slightly negotiable.",
+        color: "light Ash color",
         images: [
             "images/car6_1.jpg",
             "images/car6_2.jpg",
@@ -103,15 +111,16 @@ const carsData = [
         ]
     },
     {
-        make: "Chevrolet",
-        model: "Silverado",
-        year: 2019,
-        price: 38900,
-        mileage: 50000,
-        fuelType: "Gasoline",
-        transmission: "Automatic",
-        engine: "5.3L V8",
-        color: "Black",
+        make: "Maruthi Suzuki",
+        model: "Alto K10 VXI",
+        No: "TN:01 AP:0696",
+        year: 2011,
+        price: 165000,
+        mileage: 20,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 85%. Chill AC. 2nd Ownership. Price: Slightly negotiable.",
+        color: "Tango orange",
         images: [
             "images/car7_1.jpg",
             "images/car7_2.jpg",
@@ -119,15 +128,16 @@ const carsData = [
         ]
     },
     {
-        make: "Tesla",
-        model: "Model 3",
-        year: 2021,
-        price: 45900,
-        mileage: 18000,
-        fuelType: "Electric",
-        transmission: "Single-Speed",
-        engine: "Electric Motor",
-        color: "White",
+        make: "Ford",
+        model: "Figo Titanium",
+        No: "TN:20 BP:9180",
+        year: 2011,
+        price: 155000,
+        mileage: 15,
+        fuelType: "Petrol",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%. Chill AC. 2nd Ownership. Price: Slightly negotiable.",
+        color: "Metalic White",
         images: [
             "images/car8_1.jpg",
             "images/car8_2.jpg",
@@ -135,15 +145,16 @@ const carsData = [
         ]
     },
     {
-        make: "V0lkswagen",
-        model: "vento",
-        year: 2020,
-        price: 42900,
-        mileage: 32000,
+        make: "Maruthi Suzuki",
+        model: "SX4 ZXi",
+        No:"TN:09 BE:7660",
+        year: 2010,
+        price: 165000,
+        mileage: 18,
         fuelType: "petrol",
-        transmission: "Automatic",
-        engine: "3.5L V6",
-        color: "dark bluue",
+        transmission: "Manual",
+        about: "Neat Interior and Exterior. Geniune condition car. Tyres 80%, Alloy wheels. Chill AC. 3nd Ownership. Price: Slightly negotiable. more details contact us.",
+        color: "Sky blue",
         images: [
             "images/vw1.jpg",
             "images/vw2.jpg",
@@ -411,9 +422,13 @@ function createCarCard(car, index) {
         <h3 class="car-title">${car.year} ${car.make} ${car.model}</h3>
         <div class="car-price">${formattedPrice}</div>
         <ul class="car-specs">
+        <li>
+                <span class="spec-label">VehicleNO:</span>
+                <span class="spec-value">${car.No}</span>
+            </li>
             <li>
                 <span class="spec-label">Mileage:</span>
-                <span class="spec-value">${formattedMileage} miles</span>
+                <span class="spec-value">${formattedMileage} KM</span>
             </li>
             <li>
                 <span class="spec-label">Fuel Type:</span>
@@ -424,12 +439,12 @@ function createCarCard(car, index) {
                 <span class="spec-value">${car.transmission}</span>
             </li>
             <li>
-                <span class="spec-label">Engine:</span>
-                <span class="spec-value">${car.engine}</span>
-            </li>
-            <li>
                 <span class="spec-label">Color:</span>
                 <span class="spec-value">${car.color}</span>
+            </li>
+            <li>
+                <span class="spec-label">About:</span>
+                <span class="spec-value">${car.about}</span>
             </li>
         </ul>
     `;
